@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "devopspractice-remote-state"
-    key = "expense-vpc"
+    key = "expense-vpc-sg"
     region = "us-east-1"
     dynamodb_table = "remote-data-lock"
     
